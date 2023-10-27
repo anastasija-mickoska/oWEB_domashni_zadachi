@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="zadaca2.css">
+        <title> Pizza Shop 2.0 </title>
+    </head>
+    <body>
+        <table>
+                <th colspan="2"> Pizza Shop 2.0 </th>
+                <form method="post" action="#">
+                    <tr>
+                        <td> Name </td>
+                        <td>
+                            <input class="name" type="text" size="25" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pizza topping</td>
+                        <td>
+                            <input type="radio" name="topping" value="supreme" > <label> Supreme </label> <br>
+                            <input type="radio" name="topping" value="vegetarian"> <label> Vegetarian </label> <br>
+                            <input type="radio" name="topping" value="hawaiian"> <label> Hawaiian </label> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Pizza sauce </td>
+                        <td>
+                            <select class="sauce" name="sauce">
+                            <option selected> Tomato </option>
+                            <option> Barbecue sauce </option>
+                            <option> Pesto sauce </option>
+                            <option> Mayonnaise </option>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Optional extras </td>
+                        <td> 
+                            <input type="checkbox" name="extras" value="cheese"> <label>Extra Cheese</label>
+                            <input type="checkbox" name="extras" value="gluten-free"> <label>Gluten Free Base</label>
+                        </td>
+                    </tr>
+                    <tr rowspan="4">
+                        <td colspan="2"> 
+                        <label> Delivery instructions:</label> <br>
+                        <textarea rows="4" cols="60" placeholder="Enter instructions here:"></textarea>
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td colspan="2"> 
+                            <button><a href="#">Send my Order</a></button>
+                        </td> 
+                    </tr>
+                </form>
+        </table>
+    </body>
+</html>
