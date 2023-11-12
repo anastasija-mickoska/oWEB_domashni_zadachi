@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Guess the word</title>
+        <link rel="stylesheet" href="zadaca3.css">
+    </head>
+    <body onload="prikazhiZbor()">
+        <div class="word"> 
+            <h1>Guess the word:</h1>
+            <h3>(hint: fruits and vegetables)</h3>
+            <p id="prikaziZbor"></p> 
+            <div>
+                <label>Enter a letter:</label>
+                <input id="bukva" type="text" name="letter" maxlength="1"></input> <br>
+                <button id="submit" onclick="proveriBukva()">Submit</button>
+            </div>
+        </div>    
+        <script src="zadaca3.js"></script>   
+    </body>
+</html>
