@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>naslov</title>
+        <link rel="stylesheet" href="proektna_zadaca_1.css">
+        <script src="proektna_zadaca1.js"></script>
+    </head>
+    <body>
+        <section id="blog">
+            <div class="blog">
+                <h1 class="blog1">Блог</h1>
+                <div class="blog_arrow"><img src="Sliki/left arrow.jpg"></div>
+                <div class="post">
+                    <div class="image">
+                        <img src="Sliki/desk3.jpg">
+                    </div>
+                    <div class="button_menu"> 
+                        <div class="like">
+                            <img class="likes" onclick="like_count()" src="Sliki/like1.jpg">
+                            <p class="like_counter" onload="setRandom()"></p>
+                        </div>
+                        <div class="comment">
+                            <img class="comments" src="Sliki/comment1.jpg" onclick="add_comment()">
+                            <p class="comment_counter" onload="setRandom()"></p>
+                        </div>
+                        <p>Пост 1</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="image">
+                        <img src="Sliki/sofa3.jpg">
+                    </div>
+                    <div class="button_menu"> 
+                        <div class="like">
+                            <img class="likes" src="Sliki/like1.jpg">
+                            <p class="like_counter" onload="setRandom()"></p>
+                        </div>
+                        <div class="comment">
+                            <img class="comments" onclick="add_comment()" src="Sliki/comment1.jpg">
+                            <p class="comment_counter" onload="setRandom()"></p>
+                        </div>
+                        <p>Пост 2</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="image">
+                        <img src="Sliki/kitchen2.jpg">
+                    </div>
+                    <div class="button_menu"> 
+                        <div class="like">
+                            <img class="likes" onclick="like_count()" src="Sliki/like1.jpg">
+                            <p class="like_counter" onload="setRandom()"></p>
+                        </div>
+                        <div class="comment">
+                            <img class="comments" onclick="add_comment()" src="Sliki/comment1.jpg">
+                            <p class="comment_counter" onload="setRandom()"></p>
+                        </div>
+                        <p>Пост 3</p>
+                    </div>
+                </div>
+                <div class="blog_arrow"><img src="Sliki/right arrow.jpg"></div>
+            </div>
+        </section>
+    </body>
+</html>

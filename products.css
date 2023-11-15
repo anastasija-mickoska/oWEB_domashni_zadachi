@@ -1,0 +1,134 @@
+* {
+    margin:0;
+    padding:0;
+}
+nav {
+    background-color: rgb(248, 217, 171);
+    height:100px;
+    border: none;
+    position: sticky;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 32px;
+    float:left;
+    position: relative;
+    left:35%;
+    height:100%;
+    text-transform: uppercase;
+}
+.logo {
+    position: relative;
+    top:10px;
+    bottom:10px;
+    right:600px;
+}
+nav ul a li:hover {
+    background-color: rgb(228, 191, 142);
+}
+nav ul a li {
+    text-decoration: none;
+    color:#1E1E1E;
+    height:80px;
+    padding-top:20px;
+    text-align: center;
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left:30px;
+    padding-right: 30px;
+    position:relative;
+    left:850px;
+}
+.products {
+    width:100%;
+    height:850px;
+}
+.living_room, .kitchen, .office {
+    float:left;
+    position:relative;
+    width:32%;
+    height:800px;
+    border:6px solid white;
+    margin:6px;
+    padding:0;
+}
+section img {
+    position:relative;
+    height:100%;
+    width:100%;
+    border-radius: 20px;
+    z-index:1;
+}
+section h2 {
+    position:relative;
+    width:100%;
+    top:-15%;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-weight:lighter;
+    letter-spacing:3px;
+    z-index:2;
+}
+img:hover {
+    box-shadow: 3px 3px 15px rgb(80,80,80);
+}
+footer {
+    background-color: rgb(248, 217, 171);
+    width:100%;
+    height:250px;
+    position:relative;
+    bottom:0;
+    margin:0;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: 28px;
+    padding:10px;
+    margin:30px;
+    text-align: left;
+    position:relative;
+}
+footer div {
+    float:left;
+}
+.footer_contact {
+    position: relative;
+    width:30%;
+    left:15%;
+}
+.social_media {
+    position:relative;
+    width:30%;
+    margin:20px;
+    left:35%;
+    top:40%;
+}
+.footer1 {
+    position:relative;
+    word-spacing: 5px;
+    font-size: 32px;
+    font-weight: lighter;
+    width:100%;
+    height:100%;
+    left:-25%;
+    margin:20px;
+}
+p a {
+    text-decoration: none;
+    color:black;
+}
+.social_media img {
+    float:right;
+    align-items: center;
+    height:80px;
+    width:80px;
+    border-radius: 30px;
+    margin:10px;
+}

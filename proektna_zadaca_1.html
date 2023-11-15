@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Продавница за мебел </title>
+        <link rel="stylesheet" type="text/css" href="proektna_zadaca_1.css">
+    </head>
+    <body>
+            <nav>
+                    <ul>
+                        <li><a href="proektna_zadaca_1.html"> <img class="logo" src="Sliki/furniture-logo-with-minimalist-elements_23-2148628260.jpg" height="80" width="80"> </a> </li>
+                        <a href="#home"><li>Дома</li></a>
+                        <a href="#about"><li>За нас</li></a>
+                        <a href="products.html"><li>Производи</li></a>
+                        <a href="#contact"><li>Контакт</li></a>
+                        <a href="login.html"><li>Најави се</li></a>
+                    </ul>
+            </nav>
+            <section id="home"> 
+                <div class="home1">
+                    <div class="text"> 
+                        <h1>Дизајнирајте го вашиот станбен простор од соништата.</h1>
+                        <button class="submit"><a href="products.html">Купувај сега</a></button>
+                    </div>
+                    <div class="photo">
+                        <img class="interior" src="Sliki/interior_design.jpg">
+                    </div> 
+                </div>
+            </section>
+            <section id="about">
+                <div class="about"> 
+                    <div class="photo_about">
+                        <img class="photo1" src="Sliki/interior1.jpg" height="200" width="400">
+                    </div>
+                    <div class="about1">
+                        <h1 class="about_us">За нас</h1>
+                        <p class="za">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="contact">
+                    <div class="contact5"> 
+                        <h1 class="contact1">Контакт</h1>
+                        <form method="post" action="#">
+                            <label>Име:</label>
+                            <input type="text" name="name"> <br>
+                            <label>Презиме:</label>
+                            <input type="text" name="last_name"> <br>
+                            <label>Е-маил:</label>
+                            <input type="email" name="email" placeholder="example@gmail.com"> <br>
+                            <textarea rows="6" cols="60" placeholder="Внеси ги твоите прашања тука:"></textarea>
+                            <button class="submit">Испрати</button> 
+                        </form>
+                    </div>
+                    <div class="contact3">
+                        <img class="contact4" src="Sliki/contact.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="blog">
+                <div class="blog">
+                    <h1 class="blog1">Блог</h1>
+                    <div class="blog_arrow"><img src="Sliki/left arrow.jpg"></div>
+                    <div class="post">
+                        <div class="image">
+                            <img src="Sliki/desk3.jpg">
+                        </div>
+                        <div class="button_menu"> 
+                            <div class="like">
+                                <button onclick="like1()" id="like_button1" class="like-button">Like</button>
+                                <p id="like_counter1">1</p>
+                            </div>
+                            <div class="comment">
+                                <button onclick="comment1()" id="comment_button1" class="like-button">Comment</button>
+                                <p id="comment_counter1">1</p>
+                            </div>
+                            <p>Пост 1</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="image">
+                            <img src="Sliki/sofa3.jpg">
+                        </div>
+                        <div class="button_menu"> 
+                            <div class="like">
+                                <button onclick="like2()" id="like_button2" class="like-button">Like</button>
+                                <p id="like_counter2">1</p>
+                            </div>
+                            <div class="comment">
+                                <button onclick="comment2()" id="comment_button2" class="like-button">Comment</button>
+                                <p id="comment_counter2">1</p>
+                            </div>
+                            <p>Пост 2</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="image">
+                            <img src="Sliki/kitchen2.jpg">
+                        </div>
+                        <div class="button_menu"> 
+                            <div class="like">
+                                <button onclick="like3()" id="like_button3" class="like-button">Like</button>
+                                <p id="like_counter3">1</p>
+                            </div>
+                            <div class="comment">
+                                <button onclick="comment3()" id="comment_button3" class="like-button">Comment</button>
+                                <p id="comment_counter3">1</p>
+                            </div>
+                            <p>Пост 3</p>
+                        </div>
+                    </div>
+                    <div class="blog_arrow"><img src="Sliki/right arrow.jpg"></div>
+                </div>
+            </section>
+            <section class="query">
+                <a href="query.html"><i>Помогнете ни да се подобриме! Одвојте неколку минути да одговорите на следнава анкета.</i></a> 
+            </section>
+            <footer>
+                <div class="footer_contact"> 
+                    <p class="footer1">Име на продавница: <br> Адреса: <br>
+                       Поштенски код, Град:  <br>  
+                       Телефонски број: <br>
+                       <a href="#contact"> Е-маил:</a></p>
+                </div>
+                <div class="social_media">
+                    <a href="#"><img src="Sliki/instagram_logo.png"></a> 
+                    <a href="#"><img src="Sliki/facebook_logo.jpg"></a> 
+                    <a href="#"><img src="Sliki/linkedin_logo.jpg"></a> 
+                </div>
+            </footer>
+            <script src="proektna_zadacha1.js">
+            </script>
+    </body>
+</html>
